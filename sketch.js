@@ -10,7 +10,7 @@ arkImg=loadImage("Arkenstone.jpg")
 winImg=loadImage("win.jpg")
 }
 function setup() {
-  createCanvas(800,400);
+createCanvas(windowWidth,windowHeight)
   createSprite(400, 200, 50, 50);
   boy=createSprite(150,330,10,10)
   boy.addImage(boyImg)
